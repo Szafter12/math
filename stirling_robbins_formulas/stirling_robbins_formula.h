@@ -14,6 +14,8 @@ public:
 
     static double stirling_formula(int n);
 
+    static double estimation_error(int n);
+
 };
 
 #endif //MATH_HEADER_H
