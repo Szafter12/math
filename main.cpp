@@ -1,14 +1,9 @@
-#include <stdio>
-#include <cmath>
-#include <iomanip>
+#include "stirling_robbins_formulas/stirling_robbins_formula.h"
 
-int main() {
-	std::cout << "evaluation of the formula"
-	for (int i {1}; i < 10; ++i) {
-		
-	}
+int main(){
+    constexpr stirling_robbins_formula formula;
 
+    std::cout << formula << std::endl;
 
-
-	return 0;
+    return 0;
 }
